@@ -13,6 +13,8 @@
   }
 }
 
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +38,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  background-color: #282c34;
+}
+
+li a{
+   
+  color: white;
+  text-decoration: none;
+}
+
