@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
+import CartWidget from './components/CartWidget';
+import ItemListContainer from './components/ItemListContainer';
+import ItemCount from './components/ItemCount'
+
 
 function App() {
   return (
-    <>
-    <nav>
-    <ul>
-  <li><a href="">Home</a></li>
-  <li><a href="">News</a></li>
-  <li><a href="">Contact</a></li>
-  <li><a href="">About</a></li>
-</ul>
+       <div>
+      
+          <NavBar/>
+   
+      
+          <ItemListContainer text=" TORNERIA EN GENERAL "/>
+          
+          
 
-    </nav>
-    <div className="App">
-      Somos Coders!!
-    </div>
-
-    <div>Curso: React</div>
-    </>
+        
+          
+         <ItemCount/>
+      </div>
   );
 }
 

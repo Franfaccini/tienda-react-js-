@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* DISEÑO NAV */
+.textMarket{
+  margin-left: 30px !important;
+  color: yellow !important;
+  font-size: 30px;
+  background-color: black;
+}
+
+.itemsMarket{
+  margin-left: 800px !important;
+  color: yellow !important;
+  background-color: black !important;
+}
+
+.navbar-expand-lg .navbar-collapse{
+  background-color: black;
+  padding: 4PX;
+}
+.bg-primary{
+  background-color: black !important;
+}
+
+
+.itemsMarket li a {
+  font-size: 20px;
+  font-weight: bold;
+  color: yellow !important;
+  background-color: black !important;
+}
+
+.buscarMarket{
+  margin-left: 600px;
+}
+
+.finNavbar{
+  margin-left: 450px !important;
+}
+
+.textPrincipal{
+  font-size: 30px;
+  text-align: center;
+}
